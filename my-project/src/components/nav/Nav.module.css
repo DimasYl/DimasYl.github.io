@@ -1,11 +1,21 @@
-import style from "../header/Header.module.css";
-import React from "react";
+.navStyle {
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #F68338;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
 
-export const Nav = () => {
-    return <div className={style.navStyle}>
-        <span><a>Главная</a></span>
-        <span><a>Скиллы</a></span>
-        <span><a>Работы</a></span>
-        <span><a>Контакты</a></span>
-    </div>
+@media (max-width: 500px) {
+   .navStyle {
+       margin: 0 auto;
+   }
 }

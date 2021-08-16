@@ -1,0 +1,21 @@
+.skill {
+    width: 250px;
+    min-height: 200px;
+    margin: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+}
+
+@media (max-width: 725px) {
+    .skill {
+        width: 80%;
+    }
+  }

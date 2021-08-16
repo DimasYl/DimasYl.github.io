@@ -1,20 +1,11 @@
-.headerContainer {
-    background: deepskyblue;
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: center;
+    background: black;
     height: 100px;
 }
 
-.headerStyle {
-    float: left;
-}
 
-.navStyle {
-    float: right;
-    margin: 30px 200px;
-
-    border: 1px solid black;
-    width: 400px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}

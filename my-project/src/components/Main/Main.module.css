@@ -1,35 +1,14 @@
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    height: 500px;
+.mainBlock {
+    height: 100vh;
+    background-color: #191919;
 }
 
-
-.block {
-    display: flex;
-    border: 1px solid black;
-    width: 900px;
-    justify-content: space-around;
-    height: 200px;
+.text {
+    width: 300px;
+    color: #fd7e14
 }
-
-.myName {
-    display: flex;
-    background:gray;
-    justify-content:center;
-    align-items:center;
-    width:200px;
-    height: 75px;
-    margin:50px 0;
+.photo {
+    width: 300px;
+    height: 400px;
+   
 }
-
-
-
-.photo{
-    width: 150px;
-    height: 200px;
-    background: gray;
-}
-

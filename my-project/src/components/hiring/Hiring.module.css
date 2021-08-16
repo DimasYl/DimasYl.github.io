@@ -1,0 +1,38 @@
+.hiringBlock {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  width: 80%;
+  height: 50%;
+
+}
+.block h2 {
+  margin: 0 auto;
+  background: rgb(180, 177, 177); 
+}
+.button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+
+@media (max-width: 600px) {
+.hiringBlock{
+  height: 50vh;
+  text-align: center;
+}
+.button{
+  width: 50%;
+}
+}
