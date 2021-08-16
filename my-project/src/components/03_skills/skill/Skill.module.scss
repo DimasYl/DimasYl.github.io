@@ -9,8 +9,22 @@
     text-align: center;
     .icon {
         width: 60px;
+
         height: 60px;
-        background-color: grey;
+        // background-color: grey;
+        
+    }
+    .myIcon{
+            width: 60px;
+            height: 60px;
+            background-color:black;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
     }
     @media (max-width: 725px) {
         & {
