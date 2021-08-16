@@ -7,15 +7,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-.icon {
-    width: 60px;
-    height: 60px;
-    background-color: grey;
+    .icon {
+        width: 60px;
+        height: 60px;
+        background-color: grey;
+    }
+    @media (max-width: 725px) {
+        & {
+            width: 80%;
+        }
+      }
 }
 
-@media (max-width: 725px) {
-    .skill {
-        width: 80%;
-    }
-  }
+

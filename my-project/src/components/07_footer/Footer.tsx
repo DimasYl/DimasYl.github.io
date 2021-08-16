@@ -1,6 +1,6 @@
 import React from 'react'
 
-let style = require("./Footer.module.css");
+let style = require("./Footer.module.scss");
 
 export const Footer = () => {
   return (

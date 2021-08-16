@@ -1,4 +1,4 @@
-let style = require("./Hiring.module.css");
+let style = require("./Hiring.module.scss");
 
 export const Hiring = () => {
   return (

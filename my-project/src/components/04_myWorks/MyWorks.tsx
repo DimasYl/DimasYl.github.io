@@ -1,6 +1,6 @@
 import React from 'react'
-import style from './MyWorks.module.css'
-import styleContainer from '../../common/styles/Container.module.css'
+import style from './MyWorks.module.scss'
+import styleContainer from '../../common/styles/Container.module.scss'
 import Work from './Work/Work'
 
 
@@ -12,7 +12,6 @@ export const MyWorks = () => {
            <Work title={'Social Network'} description={'sdfdddddd'}/>
            <Work title={'TodoList'} description={'sdfsad'}/>
            <Work title={'Zadachki'} description={'sdfsad'}/>
-        
         </div>
         </div>
     </div>

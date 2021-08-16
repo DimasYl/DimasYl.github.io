@@ -1,0 +1,33 @@
+.works {
+  min-width: 250px;
+  margin: 20px;
+  height: 400px;
+  background-color: #312c2c25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @media (max-width: 910px) {
+    & {
+      width: 80%;
+    }
+  }
+  .project {
+    display: flex;
+    align-items: center;
+    height: 70%;
+    button {
+      width: 100px;
+     background: #ffff;
+     min-height: 30px;
+    }
+  }
+  .info {
+    /* border: 1px solid black; */
+    width: 100%;
+    /* padding: 2px; */
+    background: #f4f4f4;
+    height: 30%;
+    flex-direction: column;
+  }
+}

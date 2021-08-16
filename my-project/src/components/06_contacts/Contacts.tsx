@@ -1,5 +1,5 @@
-let styleContainer = require("../../common/styles/Container.module.css");
-let style = require("./Contacts.module.css");
+let styleContainer = require("../../common/styles/Container.module.scss");
+let style = require("./Contacts.module.scss");
 
 export const Contacts = () => {
   return (
