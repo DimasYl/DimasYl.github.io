@@ -1,5 +1,6 @@
+import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons';
 import React from 'react'
-
+import {FooterIcon} from './footerIcon/FooterIcon'
 let style = require("./Footer.module.scss");
 
 export const Footer = () => {
@@ -10,10 +11,9 @@ export const Footer = () => {
          Фамилия Имя Отчество
         </h2>
         <div className={style.border}>
-            <div className={style.square}></div>
-            <div className={style.square}></div>
-            <div className={style.square}></div>
-            <div className={style.square}></div>
+          <FooterIcon icon={faGithub}/>
+          <FooterIcon icon={faLinkedin}/>
+          <FooterIcon icon={faTelegram}/>
         </div>
         <span><b>©2021 Все права защищены</b></span>
       </div>

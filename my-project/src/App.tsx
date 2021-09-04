@@ -15,19 +15,20 @@ import { Skills } from './components/03_skills/Skills';
 //?better
 
 function App() {
+  const grh =  <hr color={'gray'} style={{margin:0}} />
   return (
       <div>
-        <Header />
-        <Main/>
-        <hr color={'gray'} style={{margin:0}} />
-        <Skills/>
-        <hr color={'gray'} style={{margin:0}} />
+        <Header/>
+          <Main/>
+       {grh}
+        <Skills />
+        {grh}
         <MyWorks />
-        <hr color={'gray'} style={{margin:0}} />
-        <Hiring/>
-        <hr color={'gray'} style={{margin:0}} />
+        {grh}
+        <Hiring />
+        {grh}
         <Contacts/>
-        <hr color={'gray'} style={{margin:0}} />
+        {grh}
         <Footer/>
       </div>
   );

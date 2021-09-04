@@ -1,5 +1,6 @@
 let style = require("./Hiring.module.scss");
 
+
 export const Hiring = () => {
   return (
     <div className={style.hiringBlock}>

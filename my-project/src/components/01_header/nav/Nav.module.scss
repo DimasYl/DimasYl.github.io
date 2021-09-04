@@ -1,17 +1,25 @@
 .navStyle {
-    border: 1px solid black;
+    // border: 1px solid black; 
     width: 400px;
     height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 10%;
-    
     font-size: 12px;
     text-transform: uppercase;
-    color: #F68338;
+    color: white;
     font-weight: 400;
     letter-spacing: 5px;
+    span {    
+        &:hover {
+            border-bottom: 1px solid #F68338;
+        }
+    }
+}
+.activeStyle{
+    color:#F68338;
+    // border-bottom: 1px solid #F68338;
 }
 
 @media (max-width: 500px) {

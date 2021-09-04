@@ -1,9 +1,11 @@
 let styleContainer = require("../../common/styles/Container.module.scss");
 let style = require("./Contacts.module.scss");
 
+
+
 export const Contacts = () => {
   return (
-    <div className={style.contactsBlock}>
+    <div className={style.contactsBlock} id={'contacts'}>
       <div className={`${styleContainer.container} ${style.block}`}>
         <h2>Контакты</h2>
         <form className={style.contacts}>
