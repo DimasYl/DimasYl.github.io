@@ -5,11 +5,16 @@ let style = require("./Footer.module.scss");
 
 export const Footer = () => {
   return (
-    <div className={style.footerBlock}>
+    <div className={style.footerBlock} >
       <div className={style.block}>
-        <h2>
-         Фамилия Имя Отчество
-        </h2>
+            <h2>Contacts</h2>
+          <p>Email - dima.ilyushin.2016@mail.ru</p>
+          <p>Telegram - @ven32om</p>
+          <p>LinkedIn - Dmitry ilyushin</p>
+          <p>GitHub - DimasIl</p>
+          <h2>
+              Ilyushin Dmitry Victorovich
+          </h2>
         <div className={style.border}>
           <FooterIcon icon={faGithub}/>
           <FooterIcon icon={faLinkedin}/>

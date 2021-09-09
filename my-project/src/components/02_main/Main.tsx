@@ -14,7 +14,7 @@ export const Main = () => {
               
                     <span>Hi There</span>
                     <h1> <ReactTypingEffect
-        text={["I am Jeffrey Aaron"] } speed={50} eraseSpeed={100}
+        text={["I am Ilyushin Dmitry"] } speed={30} eraseSpeed={50}
       /></h1>
                     <p>Frontend Developer</p>
                 </div>

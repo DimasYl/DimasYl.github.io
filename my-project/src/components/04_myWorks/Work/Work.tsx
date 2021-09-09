@@ -11,7 +11,7 @@ const Work: React.FC<WorkPropsType> = (props) => {
   return (
     <div className={style.works} id={'myWorks'}>
       <div className={style.project} style={backgroundImage}>
-          <button>Смотреть</button>
+          <a target={'_blank'} rel={'noreferrer'} href={'https://github.com/DimasYl?tab=repositories'}><button>Watch</button></a>
       </div>
       <div className={style.info}>
         <div>{props.title}</div>
