@@ -4,6 +4,7 @@ import styleContainer from '../../common/styles/Container.module.scss'
 import Work from './Work/Work'
 import socNet from '../../assets/img/social_network.jpg' 
 import todolist from '../../assets/img/todolist.png'
+import counter from '../../assets/img/counter2.png'
 
 
 export const MyWorks = () => {
@@ -14,8 +15,9 @@ export const MyWorks = () => {
         <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
             <h2 className={style.title}>My Works</h2>
             <div className={style.block}>
-           <Work background={socNetImg} title={'Social Network'} />
-           <Work background={todolistImg} title={'TodoList'}/>
+           <Work background={socNetImg} title={'Social Network'} href={'https://dimasyl.github.io/social_network/'}/>
+           <Work background={todolistImg} title={'TodoList'} href={'https://dimasyl.github.io/todolist/'}/>
+           <Work background={counter} title={'Counter'} href={'https://dimasyl.github.io/counter/'}/>
            {/* <Work title={'Zadachki'} description={'sdfsad'}/> */}
         </div>
         </div>
