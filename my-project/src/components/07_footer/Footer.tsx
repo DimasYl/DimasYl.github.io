@@ -11,7 +11,7 @@ export const Footer = () => {
           <p>Email - dima.ilyushin.2016@mail.ru</p>
           <p>Telegram - @ven32om</p>
           <p>LinkedIn - Dmitry ilyushin</p>
-          <p>GitHub - DimasIl</p>
+          <p>GitHub - DimasYl</p>
           <h2>
               Ilyushin Dmitry Victorovich
           </h2>

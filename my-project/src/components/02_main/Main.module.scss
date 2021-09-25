@@ -2,7 +2,7 @@
   min-height: 100vh;
   background-color: #191919;
   .mainContainer{
-    @media (max-width: 750px) {
+    @media (max-width: 1000px) {
       display: flex;
       justify-content: center;
     }
@@ -15,7 +15,7 @@
         color: #ffff;
         font-size: 40px;
     }
-    @media (max-width: 750px) {
+    @media (max-width: 1000px) {
       & {
         width: 300px;
         margin-bottom: 20px;
@@ -24,14 +24,14 @@
   }
    .photo {
     width: 300px;
-    height: 400px;
-    margin-top: 250px;
-    background-image: url('https://koloro.ua/media/upload/images/82.jpg');
+    height: 300px;
+    margin-top: 150px;
+    //background-image: url('https://koloro.ua/media/upload/images/82.jpg');
     background-size: cover;
     background-position: center;
-    @media (max-width: 750px) {
+    @media (max-width: 1000px) {
       & {
-        width: 80%;
+        width: 100%;
         margin-bottom: 20px;
       }
     }

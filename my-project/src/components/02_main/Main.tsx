@@ -2,6 +2,7 @@ import React from "react";
 import style from './Main.module.scss'
 import styleContainer from '../../common/styles/Container.module.scss'
 import ReactTypingEffect from 'react-typing-effect';
+import userPhoto from './../../assets/img/userPhoto.jpg'
 
 
 export const Main = () => {
@@ -19,8 +20,8 @@ export const Main = () => {
                     <p>Frontend Developer</p>
                 </div>
                 
-                <div className={style.photo}>
-                   
+                <div>
+                   <img alt='userPhoto' src={userPhoto} className={style.photo} />
 
                 </div>
             </div>
